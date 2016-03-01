@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.solapas{
+	width:780px;
+	height:35px;
+	margin:0;
+	padding:0;
+}
+
+.solapas ul li{
+	width:80px;
+	height:30px;
+	margin-right:10px;
+	background-color:#36F;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14;
+	font-weight:bold;
+}

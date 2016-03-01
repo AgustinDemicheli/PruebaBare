@@ -1,0 +1,25 @@
+<?
+// Archivo de Lenguaje Español para la administracion
+// Todas las Key en minusculas por favor.
+
+$trad = array (
+
+	"importar_base_seccion" => "Base de datos",
+	"importar_base" => "Importar Base",
+
+	"home_seccion" => "Home",
+	"home"         => "Ir a la Home",
+	"adm_banners"   => "Administrador de Banners",
+	"adm_home_productos" => "Productos de la Home",
+
+	"productos_seccion" => "Productos",
+	"adm_productos_list" => "Listado de Productos",
+
+	"usuarios_seccion" => "Usuarios",
+	"adm_usuarios_list" => "Listado",
+
+	"admin_seccion" => "Administracion",
+	"adm_usuarios_adm_list" => "Usuarios administrativos"
+
+	);
+?>

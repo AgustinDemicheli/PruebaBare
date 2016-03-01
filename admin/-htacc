@@ -1,0 +1,7 @@
+AuthUserFile /var/www/html/saladeprensa/admin/.htpasswd
+AuthName "Login Prensa"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>

@@ -1,0 +1,134 @@
+/* CSS Document */
+
+#navigation {
+	height:25px;
+	line-height:25px;
+	background-color:transparent;
+	margin:0;
+	padding:0;
+	border-left:#3b3b3b solid 1px;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#navigation, #navigation li {
+	float:left;
+	list-style:none;
+}
+
+#navigation li {
+	position:relative;
+	height:25px;
+	border-right:#3b3b3b solid 1px;
+}
+
+#navigation li a {
+	display:block;
+	height:25px;
+	line-height:25px;
+	padding:0 12px;
+	float:left;
+	font-size:13px;
+
+}
+
+#navigation li a.sf-with-ul {
+	padding:0 20px 0 8px;
+}
+
+#navigation li ul {
+	left:-1px !important;
+	top:25px;
+	padding:5px;
+	position:absolute;
+	width:185px;
+	z-index:999;
+	-moz-border-radius-bottomleft:13px;
+	-webkit-border-radius-bottomleft:13px;
+	-moz-border-radius-bottomright:13px;
+	-webkit-border-radius-bottomright:13px;
+	box-shadow:0 0 10px #e0f6ff;
+	-o-box-shadow:0 0 10px #e0f6ff;
+	-moz-box-shadow:0 0 10px #e0f6ff;
+	-webkit-box-shadow:0 0 10px #e0f6ff;
+	margin:0;
+}
+
+#navigation {
+	position:relative;
+	z-index:9999;
+	width:auto;
+}
+
+.ui-icon-carat-1-s{display:none; position:absolute}
+.ui-icon{display:none; position:absolute}
+
+#navigation li ul li {
+	float:none;
+	position:relative;
+	z-index:999;
+	height:30px;
+	line-height:30px;
+}
+
+#navigation li ul li a {
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+}
+
+#navigation li ul li ul {
+	left:190px;
+	top:0;
+	-moz-border-radius-bottomleft:13px;
+	-webkit-border-radius-bottomleft:13px;
+	-moz-border-radius-topright:13px;
+	-webkit-border-radius-topright:13px;
+}
+
+#navigation li a {
+	color:#000000;
+	font-weight:bold;
+}
+
+
+#navigation li ul {
+	background:#fff;
+	display:none;
+	border:#5d5d5d solid 1px;
+}
+
+#navigation li:hover ul {
+	display:block;
+}
+
+
+#navigation li ul li {
+	background:#f7fcff;
+	border-bottom:1px dotted #ccc;
+	border-left:0;
+	border-right:0;
+}
+
+#navigation li ul li a {
+	color:#5a5a5a!important;
+	font-weight:normal;
+	float:none;
+}
+
+#navigation li ul li a:hover {
+	background:#e0f6ff;
+	color:#333;
+}
+
+#navigation li ul li.sfHover, #navigation li ul li.sfHover2 {
+	background:#F7F7F7;
+}
+
+#navigation li ul li.sfHover {
+	
+}
+
+#navigation li ul li.sfHover a {
+	color:#333;
+}

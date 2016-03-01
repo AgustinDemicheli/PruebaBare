@@ -1,0 +1,115 @@
+/* CSS Document */
+                .calendariocpYearNavigation,
+                .calendariocpMonthNavigation
+
+                                               {
+                                               background-color:#af1f24;
+                                               text-align:center;
+                                               vertical-align:center;
+                                               text-decoration:none;
+                                               color:#FFFFFF;
+                                               font-weight:bold;
+                                               }
+
+                .calendariocpDayColumnHeader,
+                .calendariocpYearNavigation,
+                .calendariocpMonthNavigation,
+                .calendariocpCurrentMonthDate,
+                .calendariocpCurrentMonthDateDisabled,
+                .calendariocpOtherMonthDate,
+                .calendariocpOtherMonthDateDisabled,
+                .calendariocpCurrentDate,
+                .calendariocpCurrentDateDisabled,
+                .calendariocpTodayText,
+                .calendariocpTodayTextDisabled,
+                .calendariocpText
+                                               {
+                                               font-family:arial;
+                                               font-size:11px;
+                                               }
+
+                TD.calendariocpDayColumnHeader
+                                               {
+                                               text-align:right;
+											   font-weight:bold;
+											   color:#333333;
+                                               }
+
+                .calendariocpCurrentMonthDate,
+                .calendariocpOtherMonthDate,
+                .calendariocpCurrentDate
+                                               {
+                                               text-align:right;
+                                               text-decoration:none;
+                                               }
+
+                .calendariocpCurrentMonthDateDisabled,
+                .calendariocpOtherMonthDateDisabled,
+                .calendariocpCurrentDateDisabled
+                                               {
+                                               color:#D0D0D0;
+                                               text-align:right;
+                                               text-decoration:line-through;
+                                               }
+
+                .calendariocpCurrentMonthDate
+                                               {
+                                               color:#666666;
+                                               }
+
+                .calendariocpCurrentDate
+                                               {
+                                               color: #af1f24;
+                                               font-weight:bold;
+                                               }
+
+                .calendariocpOtherMonthDate
+
+                                               {
+                                               color:#c5c5c5;
+                                               }
+
+                TD.calendariocpCurrentDate
+                                               {
+                                               color:#af1f24;
+                                               }
+
+                TD.calendariocpCurrentDateDisabled
+                                               {
+                                               border-width:1;
+                                               border:solid thin #FFAAAA;
+                                               }
+
+                TD.calendariocpTodayText,
+                TD.calendariocpTodayTextDisabled
+                                               {
+											   background-color:#d5d5d5;
+                                               }
+
+                A.calendariocpTodayText,
+                SPAN.calendariocpTodayTextDisabled
+                                               {
+                                               height:20px;
+                                               }
+
+                A.calendariocpTodayText
+                                               {
+                                               color:#666666;
+                                               font-weight:bold;
+                                               }
+                A.calendariocpTodayText:hover
+                                               {
+                                               color:#333333;
+                                               font-weight:bold;
+                                               }
+
+                SPAN.calendariocpTodayTextDisabled
+                                               {
+                                               color:#D0D0D0;
+                                               }
+
+                .calendariocpBorder
+                                               {
+                                               border: 5px solid #999999;
+											   background-color:#ffffff;
+                                               }

@@ -1,0 +1,45 @@
+<?
+// Archivo de Lenguaje Español para la administracion
+// Todas las Key en minusculas por favor.
+
+$trad = array (
+
+	"multimedia_seccion" => "Multimedia",
+
+	"logout_seccion" => "Logout",
+	"admin_seccion" => "Administracion",
+
+	"home_seccion" => "Home",
+	"home"         => "Ir a la Home",
+
+	"adm_seccion_adm"	=>	"Seccion de administracion",	
+	"adm_seccion_adm_edit"	=>	"Seccion de administracion",
+
+	"adm_menu_adm"	=>	"Menu de administracion",
+	"adm_menu_adm_edit"	=>	"Menu de administracion",
+
+	"adm_usuarios_adm_list" => "Usuarios de administracion",
+
+	"contenidos_seccion" => "Contenidos", 
+	"adm_notas" => "Notas",
+
+	"adm_personal" => "Personal",
+	"adm_areas"	=> "Areas",
+	"calendar"	=> "Agenda",
+	"adm_upload"	=> "Administrador de Archivos",
+	"sabias_que"	=> "Sabias que?",
+	"barra_derecha" => "Menu barra derecha",
+	"clientes"	=> "Clientes",
+	"sethome"	=> "Definir contenido homes",
+	"config_sec"	=> "Vistas",
+	"adm_imagenes"	=> "Administrador Multimedia",
+	"adm_categoria" => "Categorias de Elementos",
+	"logout"	=> "Logout"
+
+	
+
+
+	);
+
+
+?>

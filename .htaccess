@@ -1,0 +1,29 @@
+
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^s([0-9]+)/(.*)/?$ seccion.php?id=$1 [NC]
+
+RewriteRule ^mapa(/)?$ 	mapa.php [NC]
+RewriteRule ^mapa/juzgados(/)?$ 	mapa.php?tipo=juzgados [NC]
+RewriteRule ^mapa/poder-judicial(/)?$ 	mapa.php?tipo=poder [NC]
+RewriteRule ^mapa/servicios-juridicos-gratuitos(/)?$ 	mapa.php?tipo=gratuitos [NC]
+
+RewriteRule ^organismos/poder-judicial(/)?$ 	organismos.php?tipos=1 [NC]
+RewriteRule ^organismos/servicios-juridicos-gratuitos(/)?$ 	organismos.php?tipos=2 [NC]
+
+RewriteRule ^organismos(/)?$ 	organismos.php [NC]
+RewriteRule ^organismos/p([0-9]+)(/)?$ 	organismos.php?p=$1 [NC]
+
+RewriteRule ^organismo/([0-9]+)/([a-zA-Z0-9\-_]+)(/)?$ ampliado.organismos.php?id=$1 [NC]
+
+RewriteRule ^juzgados/fuero-pcyf(/)?$ 	juzgados.php?fueros=2 [NC]
+RewriteRule ^juzgados/fuero-cayt(/)?$ 	juzgados.php?fueros=1 [NC]
+
+RewriteRule ^juzgados(/)?$ 	juzgados.php [NC]
+RewriteRule ^juzgados/p([0-9]+)(/)?$ 	juzgados.php?p=$1 [NC]
+
+RewriteRule ^juzgado/([0-9]+)/([a-zA-Z0-9\-_]+)(/)?$ ampliado.juzgados.php?id=$1 [NC]
+
+RewriteRule ^resultados(/)?$ 	resultados.php [NC]
+

@@ -20,6 +20,6 @@ $menu = getMenu();
         <link rel="stylesheet" href="/css/jquery.selectBox.css">
         <link rel="stylesheet" href="/css/styles.css">
 		<script src="/js/jquery-1.11.2.min.js"></script>
-		<meta property="og:description" content="Guía Poder Judicial de la Ciudad Autónoma de Buenos Aires "/>
+		<meta property="og:description" content="Guï¿½a Poder Judicial de la Ciudad Autï¿½noma de Buenos Aires "/>
     </head>
     

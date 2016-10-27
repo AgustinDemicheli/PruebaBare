@@ -13,6 +13,16 @@ if(count($org)==0)
 
 include "_doctype.php"; 
 ?>
+	<script type="text/javascript">
+		function volver(){
+			if (document.referrer.indexOf(window.location.host) !== -1) { 
+				window.history.go(-1); 
+				return false; 
+			} else { 
+				window.location.href = 'http://guiajudicial.jusbaires.gob.ar/juzgados'; 
+			}
+		}
+	</script>
 	<body id="mapa-buscador">
 		<?php include "_header.php"; ?>
 		<div id="container">
@@ -74,7 +84,7 @@ include "_doctype.php";
 							<?}?>
 							
 							<br />
-							<a href="javascript:window.history.go(-1);" class="back-button">Volver al listado</a>
+							<a href="javascript:volver();" class="back-button">Volver al listado</a>
 						</div>					
 						<? if($org[0]["latitud"] <> ""){ ?>
 						<div class="mapa">

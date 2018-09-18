@@ -1,6 +1,9 @@
 		<div class="footer-wrapper clearfix">
 			<footer>
-				<div class="main-box">		
+				<div class="main-box">
+					<p>
+						Elaborada y actualizada por la Secretaría de Coordinación de Políticas Judiciales
+					</p>
 					<p>
 						Av. Julio A. Roca 516 (C1067ABN) – Ciudad de Buenos Aires - Tel.: (+5411) 4008-0200 – www.jusbaires.gob.ar
 					</p>			

@@ -1,5 +1,4 @@
 <?php 
-var_dump("funciona"); exit;
 include "_doctype.php"; 
 $slider = getSlider();
 $sextuple = getSextuple();

@@ -62,9 +62,9 @@
 					</form>					
 				</div>
 				<div class="social clearfix">
-					<a class="fb" href="javascript:facebookDialog('http://<?=$_SERVER["HTTP_HOST"]?>','Guía Poder Judicial de la Ciudad Autónoma de Buenos Aires');">Facebook</a>
-					<a class="tw" href="javascript:twitterDialog('Guía Poder Judicial de la Ciudad Autónoma de Buenos Aires ','http://<?=$_SERVER["HTTP_HOST"]?>');">Twitter</a>
-					<a class="mail" href="mailto:scpj@jusbaires.gov.ar">Correo</a>
+					<a class="fb" href="javascript:facebookDialog('http://<?=$_SERVER["HTTP_HOST"]?>','Guï¿½a Poder Judicial de la Ciudad Autï¿½noma de Buenos Aires');">Facebook</a>
+					<a class="tw" href="javascript:twitterDialog('Guï¿½a Poder Judicial de la Ciudad Autï¿½noma de Buenos Aires ','http://<?=$_SERVER["HTTP_HOST"]?>');">Twitter</a>
+					<a class="mail" href="mailto:tujusticia@jusbaires.gob.ar">Correo</a>
 				</div>
 			</div>
 		</div>			

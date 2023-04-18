@@ -19,6 +19,7 @@ RewriteRule ^organismo/([0-9]+)/([a-zA-Z0-9\-_]+)(/)?$ ampliado.organismos.php?i
 
 RewriteRule ^juzgados/fuero-pcyf(/)?$ 	juzgados.php?fueros=2 [NC]
 RewriteRule ^juzgados/fuero-cayt(/)?$ 	juzgados.php?fueros=1 [NC]
+RewriteRule ^juzgados/fuero-electoral(/)?$ 	juzgados.php?fueros=4 [NC]
 
 RewriteRule ^juzgados(/)?$ 	juzgados.php [NC]
 RewriteRule ^juzgados/p([0-9]+)(/)?$ 	juzgados.php?p=$1 [NC]
